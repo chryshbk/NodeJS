@@ -1,0 +1,16 @@
+/*
+ * Author: Chrystian Rafael Sanches dos Santos
+ * File name: style.css
+ * StudentID: 040862854
+ * Professor: Stanley Pieda
+ * Date: October 21, 2018
+ * Description: Auto generated, it is used for the index page. Default values for the body and a tag for the button
+ */
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}

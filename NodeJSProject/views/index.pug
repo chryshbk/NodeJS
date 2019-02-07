@@ -1,0 +1,81 @@
+extends layout
+
+block content
+
+  br
+
+  h2 Welcome to my Portfolio
+
+  h4 My name is Chrystian Santos and this is my Node.js application integrated with MongoDB.
+
+  br
+
+  p
+
+    a(href='javascript:void(0)' class='btn btn-primary' id='importdata') Import CSV
+    | &nbsp;&nbsp;&nbsp;
+    a(href='javascript:void(0)' class='btn btn-primary' id='fetchdata') Read Data
+    | &nbsp;&nbsp;&nbsp;
+    a(href='javascript:void(0)' class='btn btn-primary' id='insertdata') Insert Data
+    | &nbsp;&nbsp;&nbsp;
+    a(href='javascript:void(0)' class='btn btn-primary' id='deletedata') Delete Data
+    | &nbsp;&nbsp;&nbsp;
+    a(href='javascript:void(0)' class='btn btn-primary' id='updatedata') Update Data
+    | &nbsp;&nbsp;&nbsp;
+    a(href='javascript:void(0)' class='btn btn-primary' id='resetdata') Reset Data
+
+  br
+
+  //In case you are able to import the data from the CSV file, it displays a success message.
+  p#message.alert.alert-success(style='display:none')
+
+  br
+
+  <!-- Author: Chrystian Rafael Sanches dos Santos
+  <!-- File: index.pug
+  <!-- StudentID: 040862854
+  <!-- Professor: Stanley Pieda
+  <!-- Date: October 21, 2018
+  <!-- Description: This index class is using an API called Pug.js to create a table in HTML format
+  //Here we are creating our table for the dataset provided
+  table.table.table-bordered
+
+    thead
+
+      tr
+
+        th #
+
+        th Ref_date
+
+        th Geo
+
+        th Dguid
+
+        th Food Categories
+
+        th Commodity
+
+        th Uom
+
+        th Uom_Id
+
+        th Scalar_Factor
+
+        th Scalar_Id
+
+        th Vector
+
+        th Coordinate
+
+        th Value
+
+        th Status
+
+        th Symbol
+
+        th Terminated
+
+        th Decimals
+
+    tbody#trdata

@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "csv": "^3.1.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "fast-csv": "^2.4.1",
+    "http-errors": "~1.6.2",
+    "jquery": "^3.3.1",
+    "jsdom": "^12.2.0",
+    "mocha": "^5.2.0",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongoose": "^5.3.4",
+    "mongoose-auto-increment-reworked": "^1.2.1",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.4",
+    "npm": "^6.4.1",
+    "pug": "^2.0.0-beta11",
+    "sinon": "^7.0.0",
+    "supertest": "^3.3.0"
+  }
+}
